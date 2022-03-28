@@ -7,6 +7,7 @@ let times = 0;
 links.addEventListener("click",function(e){
   const clicked = e.target.closest(".link");
   console.log(clicked)
+  links.classList.remove("res-nav");
   const sec = document.querySelector(`#${clicked.dataset.sec}`);
   console.log(clicked.dataset.sec)
  const secCoords = sec.getBoundingClientRect();
