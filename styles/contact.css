@@ -1,0 +1,29 @@
+/* Start contact */
+.contact {
+  background-color: #072340;
+}
+.contact .socials {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 575px) {
+  .contact .socials {
+    flex-direction: column;
+  }
+}
+.socials .social {
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.socials .social a {
+  color: aqua;
+}
+/* End contact */
